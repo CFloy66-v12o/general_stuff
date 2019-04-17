@@ -1,3 +1,6 @@
+html {
+  font-size: 18px;
+}
 
 * {
   box-sizing: border-box;
@@ -48,3 +51,7 @@ table {
 }
 
 /* my styles */
+p {
+ text-align: center;
+ font-size: 4rem;
+}

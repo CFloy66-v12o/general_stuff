@@ -91,7 +91,7 @@ tr td {
   letter-spacing: 4px;
 }
 
-@media screen only and (min-width: 280px) and (max-width: 900px){
+@media (min-width: 280px) and (max-width: 900px){
 
 
   table {
@@ -99,7 +99,15 @@ tr td {
   }
 
   h2 {
+    display: inline-block;
     text-align: center;
     margin: auto;
+  }
+
+  span {
+    font-size: 4rem:
+    font-family: fantasy;
+    text-decoration: underline;
+    text-transform: capitalize;
   }
 }

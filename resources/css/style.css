@@ -99,4 +99,8 @@ tr td {
   table {
     border:3px solid orange;
   }
+
+  h2 {
+    text-align: center;
+  }
 }

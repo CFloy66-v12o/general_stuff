@@ -91,7 +91,7 @@ tr td {
   letter-spacing: 4px;
 }
 
-@media (min-width: 280px) and (max-width: 900px){
+@media screen only and (min-width: 280px) and (max-width: 900px){
   subtext {
   text-rendering: auto;
   }

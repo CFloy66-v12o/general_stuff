@@ -55,7 +55,11 @@ table {
 
 /* media query */
 @media (min-width: 280px) {
-  body {
+  h2 {
+    text-align: center;
+  }
+
+  form {
     text-align: center;
   }
 }

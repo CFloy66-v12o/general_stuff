@@ -54,7 +54,7 @@ table {
 }
 
 /* my styles */
-table {
+/* table {
   border: 1px solid black;
 
 
@@ -69,8 +69,13 @@ td {
   border: 1px solid blue;
   text-align: center;
   padding: 5px;
-}
+} */
 
+h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
 
 h2 {
   text-align: center;
@@ -81,7 +86,7 @@ h2 {
   letter-spacing: 0.8em;
 }
 
-tr {
+/* tr {
   color: darkorange;
   text-align: center;
   font-size: 1.5rem;
@@ -89,20 +94,20 @@ tr {
 
 tr td {
   letter-spacing: 4px;
-}
+} */
 
 @media (min-width: 200px) and (max-width: 900px){
 
 
-  table {
+  /* table {
     border:3px solid orange;
-  }
+  } */
 
   h2 {
-    display: inline-block;
     text-align: center;
     margin: auto;
   }
+
 
   span {
     font-size: 4rem:
@@ -110,4 +115,20 @@ tr td {
     text-decoration: underline;
     text-transform: capitalize;
   }
+}
+
+.container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 1.5rem;
+}
+
+.house-fund {
+  font-size: 3rem;
 }

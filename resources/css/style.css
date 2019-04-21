@@ -54,23 +54,11 @@ table {
 }
 
 /* media query */
-/* @media screen only and (min-width: ) and (max-width:) {
-  .container {
-
+@media (min-width: 280px) {
+  body {
+    text-align: center;
   }
-  h1 {
-
-  }
-  h2 {
-
-  }
-  .container {
-
-  }
-  .house-fund {
-
-  }
-} */
+}
 /* end media query */
 
 

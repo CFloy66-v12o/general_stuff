@@ -2,6 +2,8 @@ html {
   font-size: 18px;
 }
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -33,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  font-size: 20px;
+  font-size: 1.2rem;
   background: black;
 }
 ol, ul {
@@ -54,13 +56,13 @@ table {
 }
 
 /* media query */
-@media (min-width: 280px) {
+@media (min-width: 260px) {
 
-  h1,
-  h2 {
+  h1 {
     text-align: center;
     margin: auto;
   }
+
 
   form {
     text-align: center;
@@ -76,24 +78,26 @@ table {
   }
 }
 
-
-
+@media (min-width: 260px) and (max-width: 900px) {
+  .main {
+    font-size: 1.8rem;
+  }
+}
 
 /* end media query */
+
 
 
 h1 {
   text-align: center;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.2rem;
   color: darkorange;
   line-height: 2em;
   letter-spacing: 0.8em;
-  font-size: 3rem;
   text-align: center;
   margin-bottom: 4rem;
 }
-
 
 h2 {
   font-size: 3rem;

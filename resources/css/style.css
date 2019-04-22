@@ -54,7 +54,7 @@ table {
 }
 
 /* media query */
-@media screen (min-width: 280px) {
+@media (min-width: 280px) {
 
   h1,
   h2 {

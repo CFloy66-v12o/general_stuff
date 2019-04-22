@@ -119,3 +119,8 @@ label {
 a {
   margin-top: 4rem;
 }
+
+.btn-primary {
+  margin: 2rem auto;
+  background-color: darkorange;
+}
